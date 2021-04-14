@@ -1,0 +1,95 @@
+*{
+    margin: 0;    
+    padding: 0;     
+    box-sizing: border-box;
+    background-color: #1488f2;
+}
+
+input, textarea, button, p, a {
+    font-family: 'Barlow', sans-serif;
+  }
+  
+  h1,h2,h3,h4,h5 {
+    font-family: 'Archivo', sans-serif;
+  }
+
+#navbar{
+    color: whitesmoke;
+    width: 100%;
+    background-color: #1488f2;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    height: 3.25rem;
+    position: sticky;
+    top: 0;
+    padding: 0rem 4rem;
+    font-size: 1.3rem;
+
+}
+
+.titulo {
+    margin-left: 1.5rem;
+    margin-right: 42rem;
+}
+
+.nav {
+    list-style: none;
+    color: whitesmoke;
+}
+
+.fotao {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 38rem;
+    margin-top: -28rem;
+}
+
+.text1 {
+    color: whitesmoke;
+    margin-left: 3rem;
+    margin-top: 5.5rem;
+    display: flex;
+    font-size: 2rem;
+    font-weight: 800;
+
+}
+
+.text2 {
+    color: whitesmoke;
+    margin-left: 3.1rem;
+    display: flex;
+    font-size: 8.5rem;
+
+}
+
+.text3 {
+    color: #DAD8D8;
+    margin-left: 3rem;
+    display: flex;
+    font-weight: 500;
+    font-size: 1.8rem;
+
+}
+
+.botao {
+    margin-top: 6rem;
+    margin-left: 3rem;
+    color: whitesmoke;
+    background-color: #2BFF80;
+    border: none;
+    width: 20vw;
+    height: 5vw;
+    font-weight: bold;
+    font-size: 1.6rem;
+    border-radius: 15px;
+}
+
+.botao:hover {
+    transition: .3s;
+    background-color: #03A14A;
+    cursor: pointer;
+}
